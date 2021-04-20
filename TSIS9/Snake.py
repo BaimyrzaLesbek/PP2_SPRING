@@ -118,7 +118,8 @@ def save_game():
             "Elements": snake1.element,
             "dx": snake1.dx,
             "dy": snake1.dy,
-            "level": choose
+            "level": choose,
+            "Score": Score
         }
     else:
         snake_save_game = {
@@ -128,7 +129,9 @@ def save_game():
             "dx2": snake2.dx,
             "dy": snake1.dy,
             "dy2": snake2.dy,
-            "level": choose
+            "level": choose,
+            "Score1": Score,
+            "Score2": Score2
         }
     y = json.dumps(snake_save_game)
     f.write(y)
