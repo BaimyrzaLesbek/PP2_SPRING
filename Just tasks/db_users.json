@@ -1,0 +1,1 @@
+{"admin": {"role": "admin", "password": "admin"}, "student": {"role": "student", "password": "123", "cource_list": [{"name": "ICT", "grade": 80, "attendance": 0,  "credit" : 5, "free": false}]}, "Teacher": {"role": "teacher", "password": "123456", "rate": [100, 40, 100], "cource_list": [{"name": "ICT", "grade": 0, "attendance": 0,  "credit" : 0, "free": false}]}}

@@ -114,6 +114,7 @@ while running:
         Coin_dy = 0
         time.sleep(3)
         pygame.quit()
-    
+    if counter>=3:
+        Enemy_dy=100
     pygame.display.flip()
     FramePerSec.tick(FPS)
